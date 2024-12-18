@@ -19,4 +19,4 @@
 - `package.json`: contains node package configuration
 - `tsconfig.json`: typescript configuration file
 
-# 
+# Styling Components 
