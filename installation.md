@@ -1,0 +1,6 @@
+- install nodeJS, JDK and Android Studio
+- can refer the reactnative official documentation website for this
+- make sure to update the environment variables correctly, `ANDROID_HOME`, `JAVA_HOME`, and `PATH`.
+- the mistake i was encountering was that i uninstalled openJDK that i had installed earlier from openlogic, and then i installed it using chocolatey. after installing jdk again, i updated the `JAVA_HOME` variable, but while building the project, it kept referring the old java path(the openlogic one, which i uninstalled and deleted) that was saved earlier. this was more likely a `gradle` problem.
+- the major problems were with the gradle stuff, and after fixing gradle issues, by clearing the cache, etc. by using chatGPT to fix the errors. 
+- then i just needed to have an android emulator running using android studio, and then just run the code using `npm start` or `npx react-native start` to run the server in the terminal. if an android emulator is running, then the project's apk is intalled in that emulator and it is then run.
