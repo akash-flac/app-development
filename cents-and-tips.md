@@ -1,0 +1,2 @@
+- https://www.npmjs.com/package/react-native-keyboard-aware-scroll-view : can use this package for keyboardAvoiding and scrollView combined
+- react-native-paper for better styling

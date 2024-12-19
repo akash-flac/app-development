@@ -1,3 +1,7 @@
+- to start a project:
+``` js
+npx @react-native-community/cli@latest init AwesomeProject
+```
 # react-native file structure
 - `_tests` folder: it contains files for testing of react-native apps
 - `.bundle` folder: configuration files that need not be cared about(dont touch these)
@@ -20,3 +24,5 @@
 - `tsconfig.json`: typescript configuration file
 
 # Styling Components 
+- ![](attachments/Pasted%20image%2020241218105122.png) in case of appdev, `alignItems` works from left to right instead of top to bottom(as it does in webdev on a computer), and `justifyContent` works from top to bottom.
+
